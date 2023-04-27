@@ -1,0 +1,40 @@
+main {
+  height: 100vh;
+  background: #000;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+}
+
+main h1 {
+  font-family: Inter, sans-serif;
+  font-size: 72px;
+  font-weight: 900;
+  max-width: 940px;
+  text-align: center;
+  line-height: 120%;
+  letter-spacing: -0.75px;
+
+  position: relative;
+  z-index: 10;
+}
+
+main h1 span {
+  position: relative;
+}
+
+main h1 span svg {
+  position: absolute;
+  left: -23%;
+  bottom: -5%;
+}
+
+#hero {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
